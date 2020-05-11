@@ -31,10 +31,10 @@ public class UserService {
         }
         builder.toString();
     }
-    /*
+
     public void printUsers() {
-        List<User> users = userRepository.findByNameContains(name);
+        List<User> users = userRepository.findAll();
         System.out.println("Found users:" + users.toString());
     }
-     */
+
 }

@@ -19,6 +19,6 @@ public class MyProjectApplication {
         userService.createRandomUser(10);
         userService.createRandomUser(5);
 
-        //userService.printUsers();
+        userService.printUsers();
     }
 }
